@@ -26,7 +26,7 @@ const LandingPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-black text-white">
+    <div className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-black text-white overflow-x-hidden">
       <Navbar />
       
       {/* Hero Section */}
@@ -59,6 +59,7 @@ const LandingPage: React.FC = () => {
               repeat: Infinity,
               ease: "easeInOut"
             }}
+            style={{ translateX: 0 }}
           >
             <motion.div
               className="w-full h-full"
@@ -70,6 +71,7 @@ const LandingPage: React.FC = () => {
                 repeat: Infinity,
                 ease: "linear"
               }}
+              style={{ translateX: 0 }}
             >
               <SteeringWheelIcon />
             </motion.div>
@@ -87,6 +89,7 @@ const LandingPage: React.FC = () => {
               repeat: Infinity,
               ease: "easeInOut"
             }}
+            style={{ translateX: 0 }}
           >
             <motion.div
               animate={{
@@ -97,6 +100,7 @@ const LandingPage: React.FC = () => {
                 repeat: Infinity,
                 ease: "easeInOut"
               }}
+              style={{ translateX: 0 }}
             >
               <GraphIcon />
             </motion.div>
@@ -114,6 +118,7 @@ const LandingPage: React.FC = () => {
               repeat: Infinity,
               ease: "easeInOut"
             }}
+            style={{ translateX: 0 }}
           >
             <motion.div
               animate={{
@@ -124,6 +129,7 @@ const LandingPage: React.FC = () => {
                 repeat: Infinity,
                 ease: "easeInOut"
               }}
+              style={{ translateX: 0 }}
             >
               <SafetyIcon />
             </motion.div>
